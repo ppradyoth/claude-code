@@ -1,0 +1,17 @@
+{
+  "description": "Forces a synchronous confirmation before Bash commands that are irreversible against external/remote systems, even in bypassPermissions mode",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/reversibility_gate.py",
+            "timeout": 10
+          }
+        ],
+        "matcher": "Bash"
+      }
+    ]
+  }
+}

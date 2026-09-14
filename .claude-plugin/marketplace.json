@@ -136,6 +136,17 @@
       "category": "development"
     },
     {
+      "name": "reversibility-gate",
+      "description": "Forces a synchronous confirmation before irreversible commands run against external systems, even in bypassPermissions mode",
+      "version": "1.0.0",
+      "author": {
+        "name": "Pradyoth Prashanth",
+        "email": "pradyoth0@gmail.com"
+      },
+      "source": "./plugins/reversibility-gate",
+      "category": "security"
+    },
+    {
       "name": "security-guidance",
       "description": "Security reminder hook that warns about potential security issues when editing files, including command injection, XSS, and unsafe code patterns",
       "version": "1.0.0",

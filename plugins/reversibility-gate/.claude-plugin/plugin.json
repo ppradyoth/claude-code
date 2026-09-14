@@ -1,0 +1,9 @@
+{
+  "name": "reversibility-gate",
+  "version": "1.0.0",
+  "description": "Forces a synchronous confirmation before irreversible commands run against external systems, even in bypassPermissions mode",
+  "author": {
+    "name": "Pradyoth Prashanth",
+    "email": "pradyoth0@gmail.com"
+  }
+}
